@@ -1,4 +1,9 @@
 # Starter pipeline
+- task: AzureResourceGroupDeployment@2
+  inputs:
+    azureSubscription: 'Azure Pass - Sponsorship(60e14743-da64-4d10-a440-feedc55c3539)'
+    action: 'Select Resource Group'
+    resourceGroupName: 'FromDevops'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
